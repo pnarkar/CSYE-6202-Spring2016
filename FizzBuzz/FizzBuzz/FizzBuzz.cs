@@ -6,9 +6,24 @@
 		{
 			string result = number.ToString();
 
-			// your solution/implementation should go in here
+            if (result % 3 == 0 && result % 5 == 0)
+            {
+                System.Console.WriteLine("FizzBuzz");
 
-			return result;
+            }
+            else if (result % 5 == 0)
+            {
+                System.Console.WriteLine("Buzz");
+
+            }
+
+            else if (result % 3 == 0)
+            {
+                System.Console.WriteLine("Fizz");
+
+            }
+
+            return result;
 		}
 	}
 }
