@@ -5,7 +5,7 @@
 		public string RunFizzBuzz(int number)
 	{
 
-    string result = number.ToString();
+     string result = number.ToString();
             if (number == 0) { 
                 result = "0";
 
