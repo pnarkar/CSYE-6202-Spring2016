@@ -3,25 +3,33 @@
 	public class FizzBuzz
 	{
 		public string RunFizzBuzz(int number)
-		{
-			string result = number.ToString();
+	{
 
-            if (result % 3 == 0 && result % 5 == 0)
-            {
-                System.Console.WriteLine("FizzBuzz");
-
-            }
-            else if (result % 5 == 0)
-            {
-                System.Console.WriteLine("Buzz");
+    string result = number.ToString();
+            if (number == 0) { 
+                result = "0";
 
             }
 
-            else if (result % 3 == 0)
+            else if(number % 3 == 0 && number % 5 == 0)
             {
-                System.Console.WriteLine("Fizz");
+               
+                result = "FizzBuzz";
 
             }
+            else if (number % 5 == 0)
+            {
+                result="Buzz";
+
+            }
+
+            else if (number % 3 == 0)
+            {
+                result="Fizz";
+
+            }
+
+           
 
             return result;
 		}
