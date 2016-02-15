@@ -15,24 +15,69 @@ namespace TrianglePatterns
 		}
 
 		static void DisplayPatternA()
-		{
-			// your implementation here
-            // to be done
-		}
+        {
+            Console.Write("Pattern A");
+            Console.WriteLine();
+            for (int a = 1; a <= 10; a++) 
+            {
+                for (int b = 1; b <= a; b++) 
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+        }
 
-		static void DisplayPatternB()
-		{
-			// your implementation here
-		}
+        static void DisplayPatternB()
+        {
+            Console.Write("Pattern B");
+            Console.WriteLine();
+            for (int a = 10; a >= 1; a--)
+            {
+                for (int b = 1; b <= a; b++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+
+            }
+        }
 
 		static void DisplayPatternC()
-		{
-			// your implementation here
-		}
+        {
+            Console.Write("Pattern C");
+            Console.WriteLine();
+            for (int a = 10; a >= 1; a--) 
+            {
+                for (int b = 1; b <= 10 - a; b++)        
+                {
+                    Console.Write(" ");
+                }
+                for (int c = 1; c <= a; c++)  
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+
+            } 
+        }
 
 		static void DisplayPatternD()
 		{
-			// your implementation here
-		}
+            Console.Write("Pattern D");
+            Console.WriteLine();
+            for (int a = 1; a <= 10; a++)               
+            {
+                for (int b = 1; b <= 10 - a; b++)       
+                {
+                    Console.Write(" ");
+                }
+                for (int c = 1; c <= a; c++)  
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            } 
+        }
 	}
 }
