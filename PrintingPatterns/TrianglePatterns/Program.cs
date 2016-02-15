@@ -9,7 +9,7 @@ namespace TrianglePatterns
 			DisplayPatternA();
 			DisplayPatternB();
 			DisplayPatternC();
-			DisplayPatternD();
+			DisplayPatternD(); 
 
 			Console.ReadLine();
 		}
