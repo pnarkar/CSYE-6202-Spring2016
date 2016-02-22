@@ -29,7 +29,7 @@ namespace GasPump
                 Environment.Exit(0);
 
             }
-
+            
 
 
             Console.Write("Please Enter Purchased gas amount,Q/q to quit:");
@@ -51,6 +51,17 @@ namespace GasPump
                 CalculateTotalCost(a, numVal, ref t);
 
 
+                Rec();
+
+            }
+
+            else if ((UserEnteredValidGasType(type) == false) || (UserEnteredValidAmount(amount) == false)) {
+                Console.WriteLine("please enter valid values");
+                
+
+
+
+                
                 Rec();
 
             }
@@ -93,13 +104,13 @@ namespace GasPump
             if (userInput!="r" && userInput!="R" && userInput!="p" && userInput!="P" && userInput!="m" && userInput!="M" && userInput!="d"&& userInput!="D")
             {
                 result = false;
-                System.Console.WriteLine("Invalid Gas Type");
+                System.Console.WriteLine("Invalid ");
                // Environment.Exit(0);
             }
 
             else if (userInput.Equals("")||userInput.Equals(" ") || userInput.Length > 1) {
                 result = false;
-                System.Console.WriteLine("Invalid Gas Type");
+                System.Console.WriteLine("Invalid ");
 
             }
 
