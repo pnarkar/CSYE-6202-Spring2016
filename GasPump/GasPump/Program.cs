@@ -18,19 +18,28 @@ namespace GasPump
         {
 
             double t = 0.0;
-            String type = null;
+            
            
             String amount = "";
             String z = "";
             Console.Write("Please Enter Purchased gas type,Q/q to quit:");
-            type = Console.ReadLine();
-            UserEnteredSentinelValue(type);
+          String  type = Console.ReadLine();
+            if (UserEnteredSentinelValue(type) == true) {
+
+                Environment.Exit(0);
+
+            }
 
            
             
             Console.Write("Please Enter Purchased gas amount,Q/q to quit:");
             amount = Console.ReadLine();
-            UserEnteredSentinelValue(amount);
+            if (UserEnteredSentinelValue(amount) == true)
+            {
+
+                Environment.Exit(0);
+
+            }
             if ((UserEnteredValidGasType(type) == true) && (UserEnteredValidAmount(amount) == true))
             {   
                 GasType a = GasTypeMapper(Convert.ToChar(type));
@@ -43,7 +52,12 @@ namespace GasPump
                 
                 Console.Write("Please Enter Purchased gas type,Q/q to quit:");
                 z = Console.ReadLine();
-                UserEnteredSentinelValue(z);
+                if (UserEnteredSentinelValue(z) == true)
+                {
+
+                    Environment.Exit(0);
+
+                }
 
             }
 
@@ -58,12 +72,12 @@ namespace GasPump
 			var result = false;
 
 
-            if (userInput.Equals("q") || userInput.Equals("Q"))
+            if (userInput=="q" || userInput=="Q")
             {
-               
-                System.Console.WriteLine("Application Terminated");
-                //System.Environment.Exit(0);
                 result = true;
+                System.Console.WriteLine("Application Terminated");
+              //Environment.Exit(0);
+                
 
             }
            
@@ -76,11 +90,11 @@ namespace GasPump
 		public static bool UserEnteredValidGasType(string userInput)
 		{
 			var result = false;
-            if (!userInput.Equals("r") && !userInput.Equals("R") && !userInput.Equals("p") && !userInput.Equals("P") && !userInput.Equals("m") && !userInput.Equals("M") && !userInput.Equals("d") && !userInput.Equals("D"))
+            if (userInput!="r" && userInput!="R" && userInput!="p" && userInput!="P" && userInput!="m" && userInput!="M" && userInput!="d"&& userInput!="D")
             {
                 result = false;
                 System.Console.WriteLine("Invalid Gas Type");
-                //System.Environment.Exit(0);
+               // Environment.Exit(0);
             }
 
             else if (userInput.Equals("")||userInput.Equals(" ") || userInput.Length > 1) {
