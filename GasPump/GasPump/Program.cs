@@ -17,23 +17,35 @@ namespace GasPump
 		static void Main(string[] args)
         {
 
-
-            String type = "";
+            double t = 0.0;
+            String type = null;
+           
             String amount = "";
-           Console.Write("Please Enter Purchased gas type,Q/q to quit:");
+            String z = "";
+            Console.Write("Please Enter Purchased gas type,Q/q to quit:");
             type = Console.ReadLine();
             UserEnteredSentinelValue(type);
-               
-            
+
+           
             
             Console.Write("Please Enter Purchased gas amount,Q/q to quit:");
             amount = Console.ReadLine();
             UserEnteredSentinelValue(amount);
-            UserEnteredValidGasType(type);
-            UserEnteredValidAmount(amount);
+            if ((UserEnteredValidGasType(type) == true) && (UserEnteredValidAmount(amount) == true))
+            {   
+                GasType a = GasTypeMapper(Convert.ToChar(type));
+                double b = GasPriceMapper(a);
+              int  numVal = Convert.ToInt32(amount);
 
+                Console.Write("You bought {0} Gallon of {1} at {2}",amount,a,b);
+                Console.ReadLine();
+                CalculateTotalCost(a, numVal, ref t);
+                
+                Console.Write("Please Enter Purchased gas type,Q/q to quit:");
+                z = Console.ReadLine();
+                UserEnteredSentinelValue(z);
 
-
+            }
 
 
 
@@ -42,23 +54,23 @@ namespace GasPump
 		// use this method to check and see if sentinel value is entered
 		public static bool UserEnteredSentinelValue(string userInput)
 		{
+                      
 			var result = false;
 
 
             if (userInput.Equals("q") || userInput.Equals("Q"))
             {
-                result = true;
+               
                 System.Console.WriteLine("Application Terminated");
                 //System.Environment.Exit(0);
-
+                result = true;
 
             }
-
            
+                      
 
             return result;
-		}
-
+	}
 		// use this method to parse and check the characters entered
 		// this does not conform 
 		public static bool UserEnteredValidGasType(string userInput)
@@ -115,14 +127,14 @@ namespace GasPump
 
             }
 
-            else if (c.Equals('p') | (c.Equals('P')))
+            else if (c.Equals('p') || (c.Equals('P')))
             {
                 gasType = GasType.PremiumGas;
                 
 
             }
 
-            else if (c.Equals('m') | (c.Equals('M')))
+            else if (c.Equals('m') || (c.Equals('M')))
             {
                 gasType = GasType.MidgradeGas;
 
@@ -172,8 +184,14 @@ namespace GasPump
 
 		public static void CalculateTotalCost(GasType gasType, int gasAmount, ref double totalCost)
 		{
-			
-            
-		}
+            totalCost = 0.0;
+            double result = 0.0;
+            result = GasPriceMapper(gasType);
+
+            totalCost = gasAmount * result;
+
+            System.Console.WriteLine("Your total cost for this Purchase is {0}",totalCost);
+
+        }
 	}
 }
