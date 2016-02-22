@@ -14,24 +14,24 @@ namespace GasPump
 			DieselFuel				
 		}
 
-		static void Main(string[] args)
+        public static void Rec()
         {
-
             double t = 0.0;
-            
-           
+
+
             String amount = "";
             String z = "";
             Console.Write("Please Enter Purchased gas type,Q/q to quit:");
-          String  type = Console.ReadLine();
-            if (UserEnteredSentinelValue(type) == true) {
+            String type = Console.ReadLine();
+            if (UserEnteredSentinelValue(type) == true)
+            {
 
                 Environment.Exit(0);
 
             }
 
-           
-            
+
+
             Console.Write("Please Enter Purchased gas amount,Q/q to quit:");
             amount = Console.ReadLine();
             if (UserEnteredSentinelValue(amount) == true)
@@ -41,26 +41,26 @@ namespace GasPump
 
             }
             if ((UserEnteredValidGasType(type) == true) && (UserEnteredValidAmount(amount) == true))
-            {   
+            {
                 GasType a = GasTypeMapper(Convert.ToChar(type));
                 double b = GasPriceMapper(a);
-              int  numVal = Convert.ToInt32(amount);
+                int numVal = Convert.ToInt32(amount);
 
-                Console.Write("You bought {0} Gallon of {1} at {2}",amount,a,b);
+                Console.Write("You bought {0} Gallon of {1} at {2}", amount, a, b);
                 Console.ReadLine();
                 CalculateTotalCost(a, numVal, ref t);
-                
-                Console.Write("Please Enter Purchased gas type,Q/q to quit:");
-                z = Console.ReadLine();
-                if (UserEnteredSentinelValue(z) == true)
-                {
 
-                    Environment.Exit(0);
 
-                }
+                Rec();
 
             }
+        }
 
+		static void Main(string[] args)
+        {
+
+             Rec();
+            Console.ReadLine();
 
 
         }
