@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimplePayRole
 {
-    class SalarybasedCommissiomEmployee : Employee
+   public class SalarybasedCommissiomEmployee : Employee
 
     {
 
@@ -25,8 +25,10 @@ namespace SimplePayRole
         public override float calculateSalary()
         {
             float sal = 0.0f;
+            
+                sal = BaseSalary + (GrossSales * CommissionRate); 
 
-            sal = BaseSalary + (GrossSales*CommissionRate);
+            
             return sal;
         }
     }

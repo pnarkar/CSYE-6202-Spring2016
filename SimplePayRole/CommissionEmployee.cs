@@ -19,7 +19,11 @@ namespace SimplePayRole
         public override float calculateSalary()
         {
             float sal = 0.0f;
-            sal = GrossSales * CommissionRate;
+
+           
+                sal = GrossSales * CommissionRate;
+
+            
             return sal;
         }
     }

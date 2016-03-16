@@ -6,64 +6,226 @@ using System.Threading.Tasks;
 
 namespace SimplePayRole
 {
-    class Program
+   public class Program
     {
         static void Main(string[] args)
         {
-            
+            float salary = 0.0f;
+            float GS = 0.0f;
+            float CR = 0.0f;
+            float hours = 0.0f;
+            float BS = 0.0f;
+            float earned =0.0f;
             Console.Write("Salaried Employee:");
+            string rname = "^[a-zA-Z\\s]+$";
             String name = Console.ReadLine();
-            Console.Write("Social Security Number:");
-            String number = Console.ReadLine();
-            Console.Write("Weekly Salary:$");
-            float salary = float.Parse(Console.ReadLine());
-            SalariedEmployee s = new SalariedEmployee(salary,number,name);
-            float earned = s.calculateSalary();
-            Console.Write("Earned:$"+earned);
-            Console.ReadLine();
+            if (System.Text.RegularExpressions.Regex.IsMatch(name, rname))
+            {
+                Console.Write("Social Security Number:");
+                string sPattern = "^\\d{3}-\\d{2}-\\d{4}$";
+                String number = Console.ReadLine();
+                if (System.Text.RegularExpressions.Regex.IsMatch(number, sPattern))
+                {
+                    Console.Write("Weekly Salary:$");
+                    
+                    try {
+                        salary = float.Parse(Console.ReadLine()); }
+                    catch (FormatException e)
+                    {
+                        Console.WriteLine(e.Message);
+                        Environment.Exit(0);
 
-            Console.Write("Hourly employee:");
-             name = Console.ReadLine();
-            Console.Write("Social Security Number:");
-             number = Console.ReadLine();
-            Console.Write("Hourly wage:$");
-             salary = float.Parse(Console.ReadLine());
-            Console.Write("Hours worked:$");
-            float hours=float.Parse(Console.ReadLine());
-            HourlyEmployee e = new HourlyEmployee(salary,hours, number, name);
-             earned = e.calculateSalary();
-            Console.Write("Earned:$" + earned);
-            Console.ReadLine();
+                    }
 
-            Console.Write("Commission employee:");
-            name = Console.ReadLine();
-            Console.Write("Social Security Number:");
-            number = Console.ReadLine();
-            Console.Write("Gross Sales:$");
-            float GS = float.Parse(Console.ReadLine());
-            Console.Write("Commission rate:");
-            float CR = float.Parse(Console.ReadLine());
-            CommissionEmployee c = new CommissionEmployee(GS, CR, number, name);
-            earned = c.calculateSalary();
-            Console.Write("Earned:$" + earned);
-            Console.ReadLine();
+                    catch (Exception e)
+                    {
 
 
+                        Console.WriteLine("Handling a System.Exception object");
+                        Console.WriteLine("Message = " + e.Message);
+                        Console.WriteLine("StackTrace = " + e.StackTrace);
+                        Environment.Exit(0);
 
-            Console.Write("Base salaried commission employee:");
-            name = Console.ReadLine();
-            Console.Write("Social security number:");
-            number = Console.ReadLine();
-            Console.Write("Gross Sales:$");
-             GS = float.Parse(Console.ReadLine());
-            Console.Write("Commission rate:");
-            CR = float.Parse(Console.ReadLine());
-            Console.Write("Base salary:");
-           float BS = float.Parse(Console.ReadLine());
-           SalarybasedCommissiomEmployee sb = new SalarybasedCommissiomEmployee(GS, CR,BS, number, name);
-            earned = sb.calculateSalary();
-            Console.Write("Earned:$" + earned);
-            Console.ReadLine();
+                    }
+                    SalariedEmployee s = new SalariedEmployee(salary, number, name);
+                    earned = s.calculateSalary();
+                    Console.Write("Earned:$" + earned);
+                    Console.ReadLine();
+
+                    Console.Write("Hourly employee:");
+                    name = Console.ReadLine();
+                    if (System.Text.RegularExpressions.Regex.IsMatch(name, rname))
+                    {
+                        Console.Write("Social Security Number:");
+                        number = Console.ReadLine();
+                        if (System.Text.RegularExpressions.Regex.IsMatch(number, sPattern))
+                        {
+                            Console.Write("Hourly wage:$");
+                           
+                            try {
+                                salary = float.Parse(Console.ReadLine());
+                                Console.Write("Hours worked:$");
+                                hours = float.Parse(Console.ReadLine()); }
+
+                            catch (FormatException ee)
+                            {
+                                Console.WriteLine(ee.Message);
+                                Environment.Exit(0);
+                            }
+
+                            catch (Exception ee)
+                            {
+
+
+                                Console.WriteLine("Handling a System.Exception object");
+                                Console.WriteLine("Message = " + ee.Message);
+                                Console.WriteLine("StackTrace = " + ee.StackTrace);
+                                Environment.Exit(0);
+                            }
+                            HourlyEmployee e = new HourlyEmployee(salary, hours, number, name);
+                            earned = e.calculateSalary();
+                            Console.Write("Earned:$" + earned);
+                            Console.ReadLine();
+
+                            Console.Write("Commission employee:");
+                            name = Console.ReadLine();
+                            if (System.Text.RegularExpressions.Regex.IsMatch(name, rname))
+                            {
+                                Console.Write("Social Security Number:");
+                                number = Console.ReadLine();
+
+                                if (System.Text.RegularExpressions.Regex.IsMatch(number, sPattern))
+                                {
+                                    Console.Write("Gross Sales:$");
+                                    try {
+                                        GS = float.Parse(Console.ReadLine());
+                                        Console.Write("Commission rate:");
+                                        CR = float.Parse(Console.ReadLine()); }
+
+                                    catch (FormatException ee)
+                                    {
+                                        Console.WriteLine(ee.Message);
+                                        Environment.Exit(0);
+                                    }
+
+                                    catch (Exception ee)
+                                    {
+
+
+                                        Console.WriteLine("Handling a System.Exception object");
+                                        Console.WriteLine("Message = " + ee.Message);
+                                        Console.WriteLine("StackTrace = " + ee.StackTrace);
+                                        Environment.Exit(0);
+                                    }
+                                    CommissionEmployee c = new CommissionEmployee(GS, CR, number, name);
+                                    earned = c.calculateSalary();
+                                    Console.Write("Earned:$" + earned);
+                                    Console.ReadLine();
+
+
+
+                                    Console.Write("Base salaried commission employee:");
+                                    name = Console.ReadLine();
+                                    if (System.Text.RegularExpressions.Regex.IsMatch(name, rname))
+                                    {
+                                        Console.Write("Social security number:");
+                                        number = Console.ReadLine();
+                                        if (System.Text.RegularExpressions.Regex.IsMatch(number, sPattern))
+                                        {
+                                            Console.Write("Gross Sales:$");
+                                            try {
+                                                GS = float.Parse(Console.ReadLine());
+                                                Console.Write("Commission rate:");
+                                                CR = float.Parse(Console.ReadLine());
+                                                Console.Write("Base salary:");
+                                                BS = float.Parse(Console.ReadLine()); }
+
+                                            catch (FormatException ee)
+                                            {
+                                                Console.WriteLine(ee.Message);
+                                                Environment.Exit(0);
+                                            }
+
+                                            catch (Exception ee)
+                                            {
+
+
+                                                Console.WriteLine("Handling a System.Exception object");
+                                                Console.WriteLine("Message = " + ee.Message);
+                                                Console.WriteLine("StackTrace = " + ee.StackTrace);
+                                                Environment.Exit(0);
+
+                                            }
+                                            SalarybasedCommissiomEmployee sb = new SalarybasedCommissiomEmployee(GS, CR, BS, number, name);
+                                            earned = sb.calculateSalary();
+                                            Console.Write("Earned:$" + earned);
+                                            Console.ReadLine();
+                                        }
+                                        else {
+                                            System.Console.WriteLine(" - invalid SSN");
+                                            Environment.Exit(0);
+
+
+                                        }
+                                    }
+
+                                    else {
+                                        System.Console.WriteLine(" - invalid name");
+                                        Environment.Exit(0);
+
+
+                                    }
+                                }
+
+                                else {
+                                    System.Console.WriteLine(" - invalid SSN");
+                                    Environment.Exit(0);
+
+
+                                }
+
+                            }
+
+                            else {
+                                System.Console.WriteLine(" - invalid name");
+                                Environment.Exit(0);
+
+
+                            }
+
+                        }
+
+                        else {
+                            System.Console.WriteLine(" - invalid SSN");
+                            Environment.Exit(0);
+
+
+                        }
+                    }
+
+                    else {
+                        System.Console.WriteLine(" - invalid name");
+                        Environment.Exit(0);
+
+
+                    }
+
+                }
+                else
+                {
+                    System.Console.WriteLine(" - invalid SSN");
+                    Environment.Exit(0);
+                }
+
+            }
+
+            else
+            {
+                System.Console.WriteLine(" - invalid name");
+                Environment.Exit(0);
+            }
+
+
 
         }
     }

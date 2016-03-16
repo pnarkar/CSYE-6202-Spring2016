@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimplePayRole
 {
-    class SalariedEmployee : Employee
+   public class SalariedEmployee : Employee
     {
         public float WeekelySalary {get; private set;}
 
@@ -19,7 +19,10 @@ namespace SimplePayRole
       
         public override float calculateSalary()
         {
-        return WeekelySalary;
+            
+
+           
+            return WeekelySalary;
         }
     }
 }
