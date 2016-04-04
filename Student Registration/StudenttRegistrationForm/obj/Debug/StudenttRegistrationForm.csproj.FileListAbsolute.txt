@@ -1,0 +1,30 @@
+C:\Users\pranalinarkar\Documents\Visual Studio 2015\Projects\Student Registration\StudenttRegistrationForm\obj\Debug\StudenttRegistrationForm.csprojResolveAssemblyReference.cache
+C:\Users\pranalinarkar\Documents\Visual Studio 2015\Projects\Student Registration\StudenttRegistrationForm\obj\Debug\Student_Registration.Login.resources
+C:\Users\pranalinarkar\Documents\Visual Studio 2015\Projects\Student Registration\StudenttRegistrationForm\obj\Debug\Student_Registration.Main.resources
+C:\Users\pranalinarkar\Documents\Visual Studio 2015\Projects\Student Registration\StudenttRegistrationForm\obj\Debug\StudenttRegistrationForm.Properties.Resources.resources
+C:\Users\pranalinarkar\Documents\Visual Studio 2015\Projects\Student Registration\StudenttRegistrationForm\obj\Debug\StudenttRegistrationForm.csproj.GenerateResource.Cache
+C:\Users\pranalinarkar\Documents\Visual Studio 2015\Projects\Student Registration\StudenttRegistrationForm\bin\Debug\StudenttRegistrationForm.exe.config
+C:\Users\pranalinarkar\Documents\Visual Studio 2015\Projects\Student Registration\StudenttRegistrationForm\bin\Debug\StudenttRegistrationForm.exe
+C:\Users\pranalinarkar\Documents\Visual Studio 2015\Projects\Student Registration\StudenttRegistrationForm\bin\Debug\StudenttRegistrationForm.pdb
+C:\Users\pranalinarkar\Documents\Visual Studio 2015\Projects\Student Registration\StudenttRegistrationForm\bin\Debug\StudentInfo.dll
+C:\Users\pranalinarkar\Documents\Visual Studio 2015\Projects\Student Registration\StudenttRegistrationForm\bin\Debug\StudentInfo.pdb
+C:\Users\pranalinarkar\Documents\Visual Studio 2015\Projects\Student Registration\StudenttRegistrationForm\obj\Debug\StudenttRegistrationForm.exe
+C:\Users\pranalinarkar\Documents\Visual Studio 2015\Projects\Student Registration\StudenttRegistrationForm\obj\Debug\StudenttRegistrationForm.pdb
+C:\Users\pranalinarkar\Documents\Visual Studio 2015\Projects\Student Registration\StudenttRegistrationForm\obj\Debug\StudenttRegistrationForm.StudentAdd.resources
+C:\Users\pranalinarkar\Documents\Visual Studio 2015\Projects\Student Registration\StudenttRegistrationForm\obj\Debug\StudenttRegistrationForm.EditStudent.resources
+C:\Users\pranalinarkar\Documents\Visual Studio 2015\Projects\Student Registration\StudenttRegistrationForm\obj\Debug\StudenttRegistrationForm.RemoveStudent.resources
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudenttRegistrationForm\bin\Debug\StudenttRegistrationForm.exe.config
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudenttRegistrationForm\bin\Debug\StudenttRegistrationForm.exe
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudenttRegistrationForm\bin\Debug\StudenttRegistrationForm.pdb
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudenttRegistrationForm\bin\Debug\StudentInfo.dll
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudenttRegistrationForm\bin\Debug\StudentInfo.pdb
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudenttRegistrationForm\obj\Debug\StudenttRegistrationForm.csprojResolveAssemblyReference.cache
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudenttRegistrationForm\obj\Debug\StudenttRegistrationForm.EditStudent.resources
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudenttRegistrationForm\obj\Debug\Student_Registration.Login.resources
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudenttRegistrationForm\obj\Debug\Student_Registration.Main.resources
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudenttRegistrationForm\obj\Debug\StudenttRegistrationForm.Properties.Resources.resources
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudenttRegistrationForm\obj\Debug\StudenttRegistrationForm.RemoveStudent.resources
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudenttRegistrationForm\obj\Debug\StudenttRegistrationForm.StudentAdd.resources
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudenttRegistrationForm\obj\Debug\StudenttRegistrationForm.csproj.GenerateResource.Cache
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudenttRegistrationForm\obj\Debug\StudenttRegistrationForm.exe
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudenttRegistrationForm\obj\Debug\StudenttRegistrationForm.pdb

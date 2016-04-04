@@ -1,0 +1,10 @@
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem.Tests\bin\Debug\PayrollSystem.Tests.dll
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem.Tests\bin\Debug\PayrollSystem.Tests.pdb
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem.Tests\bin\Debug\nunit.framework.dll
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem.Tests\bin\Debug\nunit.mocks.dll
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem.Tests\bin\Debug\PayrollSystem.exe
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem.Tests\bin\Debug\PayrollSystem.pdb
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem.Tests\bin\Debug\nunit.framework.xml
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem.Tests\obj\Debug\SimplePayRole.Tests.csprojResolveAssemblyReference.cache
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem.Tests\obj\Debug\PayrollSystem.Tests.dll
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem.Tests\obj\Debug\PayrollSystem.Tests.pdb

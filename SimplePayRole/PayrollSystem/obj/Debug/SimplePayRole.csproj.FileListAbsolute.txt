@@ -1,0 +1,12 @@
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem\bin\Debug\PayrollSystem.exe.config
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem\bin\Debug\PayrollSystem.exe
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem\bin\Debug\PayrollSystem.pdb
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem\obj\Debug\SimplePayRole.csprojResolveAssemblyReference.cache
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem\obj\Debug\PayrollSystem.exe
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem\obj\Debug\PayrollSystem.pdb
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\SimplePayRole\PayrollSystem\bin\Debug\PayrollSystem.exe.config
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\SimplePayRole\PayrollSystem\obj\Debug\PayrollSystem.exe
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\SimplePayRole\PayrollSystem\obj\Debug\PayrollSystem.pdb
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\SimplePayRole\PayrollSystem\bin\Debug\PayrollSystem.exe
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\SimplePayRole\PayrollSystem\bin\Debug\PayrollSystem.pdb
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\SimplePayRole\PayrollSystem\obj\Debug\SimplePayRole.csprojResolveAssemblyReference.cache

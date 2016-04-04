@@ -1,0 +1,9 @@
+c:\users\pranalinarkar\documents\visual studio 2015\Projects\Student Registration\Student Registration\bin\Debug\Student Registration.exe.config
+c:\users\pranalinarkar\documents\visual studio 2015\Projects\Student Registration\Student Registration\bin\Debug\Student Registration.exe
+c:\users\pranalinarkar\documents\visual studio 2015\Projects\Student Registration\Student Registration\bin\Debug\Student Registration.pdb
+c:\users\pranalinarkar\documents\visual studio 2015\Projects\Student Registration\Student Registration\obj\Debug\Student Registration.csprojResolveAssemblyReference.cache
+c:\users\pranalinarkar\documents\visual studio 2015\Projects\Student Registration\Student Registration\obj\Debug\Student_Registration.Login.resources
+c:\users\pranalinarkar\documents\visual studio 2015\Projects\Student Registration\Student Registration\obj\Debug\Student_Registration.Properties.Resources.resources
+c:\users\pranalinarkar\documents\visual studio 2015\Projects\Student Registration\Student Registration\obj\Debug\Student Registration.csproj.GenerateResource.Cache
+c:\users\pranalinarkar\documents\visual studio 2015\Projects\Student Registration\Student Registration\obj\Debug\Student Registration.exe
+c:\users\pranalinarkar\documents\visual studio 2015\Projects\Student Registration\Student Registration\obj\Debug\Student Registration.pdb

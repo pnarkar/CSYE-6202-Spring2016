@@ -1,0 +1,8 @@
+c:\users\pranalinarkar\documents\visual studio 2015\Projects\Student Registration\StudentInfo\bin\Debug\StudentInfo.dll
+c:\users\pranalinarkar\documents\visual studio 2015\Projects\Student Registration\StudentInfo\bin\Debug\StudentInfo.pdb
+c:\users\pranalinarkar\documents\visual studio 2015\Projects\Student Registration\StudentInfo\obj\Debug\StudentInfo.dll
+c:\users\pranalinarkar\documents\visual studio 2015\Projects\Student Registration\StudentInfo\obj\Debug\StudentInfo.pdb
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudentInfo\bin\Debug\StudentInfo.dll
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudentInfo\bin\Debug\StudentInfo.pdb
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudentInfo\obj\Debug\StudentInfo.dll
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\Student Registration\StudentInfo\obj\Debug\StudentInfo.pdb

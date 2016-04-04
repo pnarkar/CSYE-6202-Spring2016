@@ -1,0 +1,602 @@
+<stylecopresultscache>
+  <version>12</version>
+  <project key="-1012876687">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="FizzBuzz.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/02/12 22:26:30.695</styleCop>
+      <settingsFile>2016/02/12 22:26:30.225</settingsFile>
+      <sourceFile>2016/03/26 10:41:33.194</sourceFile>
+      <parser>2016/02/12 22:26:30.695</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/02/12 22:26:30.695</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1624814296</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/02/12 22:26:30.695</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/02/12 22:26:30.695</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/02/12 22:26:30.695</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+      <StyleCopPlus.StyleCopPlusRules>2016/02/12 22:26:30.695</StyleCopPlus.StyleCopPlusRules>
+      <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>3</line>
+        <index>23</index>
+        <endIndex>23</endIndex>
+        <startLine>3</startLine>
+        <startColumn>1</startColumn>
+        <endLine>3</endLine>
+        <endColumn>1</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>4</line>
+        <index>47</index>
+        <endIndex>47</endIndex>
+        <startLine>4</startLine>
+        <startColumn>1</startColumn>
+        <endLine>4</endLine>
+        <endColumn>1</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>5</line>
+        <index>51</index>
+        <endIndex>52</endIndex>
+        <startLine>5</startLine>
+        <startColumn>1</startColumn>
+        <endLine>5</endLine>
+        <endColumn>2</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>36</line>
+        <index>624</index>
+        <endIndex>624</endIndex>
+        <startLine>36</startLine>
+        <startColumn>1</startColumn>
+        <endLine>36</endLine>
+        <endColumn>1</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsForMultiLineStatementsMustNotShareLine" ruleCheckId="SA1500">
+        <context>If a statement spans multiple lines, the opening curly bracket must be placed on its own line.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="SA1505">
+        <context>An opening curly bracket must not be followed by a blank line.</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ChainedStatementBlocksMustNotBePrecededByBlankLine" ruleCheckId="SA1510">
+        <context>An else, catch, or finally statement must not be preceded by a blank line.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="SA1505">
+        <context>An opening curly bracket must not be followed by a blank line.</context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>19</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>24</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ChainedStatementBlocksMustNotBePrecededByBlankLine" ruleCheckId="SA1510">
+        <context>An else, catch, or finally statement must not be preceded by a blank line.</context>
+        <line>26</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>30</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>32</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>33</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>6</line>
+        <index>92</index>
+        <endIndex>92</endIndex>
+        <startLine>6</startLine>
+        <startColumn>1</startColumn>
+        <endLine>6</endLine>
+        <endColumn>1</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="KeywordsMustBeSpacedCorrectly" ruleCheckId="SA1000">
+        <context>The spacing around the keyword 'if' is invalid.</context>
+        <line>14</line>
+        <index>239</index>
+        <endIndex>240</endIndex>
+        <startLine>14</startLine>
+        <startColumn>18</startColumn>
+        <endLine>14</endLine>
+        <endColumn>19</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>22</line>
+        <index>442</index>
+        <endIndex>442</endIndex>
+        <startLine>22</startLine>
+        <startColumn>23</startColumn>
+        <endLine>22</endLine>
+        <endColumn>23</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>22</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>28</line>
+        <index>547</index>
+        <endIndex>547</endIndex>
+        <startLine>28</startLine>
+        <startColumn>23</startColumn>
+        <endLine>28</endLine>
+        <endColumn>23</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>28</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>35</line>
+        <index>619</index>
+        <endIndex>620</endIndex>
+        <startLine>35</startLine>
+        <startColumn>1</startColumn>
+        <endLine>35</endLine>
+        <endColumn>2</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CodeLineMustNotEndWithWhitespace" ruleCheckId="SP2000">
+        <context>Invalid spacing at the end of the line.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CodeLineMustNotEndWithWhitespace" ruleCheckId="SP2000">
+        <context>Invalid spacing at the end of the line.</context>
+        <line>16</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>17</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>19</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>20</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>21</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>22</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>24</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>26</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>27</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>28</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>30</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CodeLineMustNotEndWithWhitespace" ruleCheckId="SP2000">
+        <context>Invalid spacing at the end of the line.</context>
+        <line>32</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>34</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/02/12 22:26:30.695</styleCop>
+      <settingsFile>2016/02/12 22:26:30.225</settingsFile>
+      <sourceFile>2016/03/26 10:41:33.210</sourceFile>
+      <parser>2016/02/12 22:26:30.695</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/02/12 22:26:30.695</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1624814296</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/02/12 22:26:30.695</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/02/12 22:26:30.695</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/02/12 22:26:30.695</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+      <StyleCopPlus.StyleCopPlusRules>2016/02/12 22:26:30.695</StyleCopPlus.StyleCopPlusRules>
+      <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>3</line>
+        <index>21</index>
+        <endIndex>21</endIndex>
+        <startLine>3</startLine>
+        <startColumn>1</startColumn>
+        <endLine>3</endLine>
+        <endColumn>1</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>4</line>
+        <index>36</index>
+        <endIndex>36</endIndex>
+        <startLine>4</startLine>
+        <startColumn>1</startColumn>
+        <endLine>4</endLine>
+        <endColumn>1</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>5</line>
+        <index>39</index>
+        <endIndex>40</endIndex>
+        <startLine>5</startLine>
+        <startColumn>1</startColumn>
+        <endLine>5</endLine>
+        <endColumn>2</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>8</line>
+        <index>81</index>
+        <endIndex>81</endIndex>
+        <startLine>8</startLine>
+        <startColumn>1</startColumn>
+        <endLine>8</endLine>
+        <endColumn>1</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The method must have an access modifier.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>6</line>
+        <index>73</index>
+        <endIndex>74</endIndex>
+        <startLine>6</startLine>
+        <startColumn>1</startColumn>
+        <endLine>6</endLine>
+        <endColumn>2</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>7</line>
+        <index>77</index>
+        <endIndex>78</endIndex>
+        <startLine>7</startLine>
+        <startColumn>1</startColumn>
+        <endLine>7</endLine>
+        <endColumn>2</endColumn>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/02/12 22:26:30.695</styleCop>
+      <settingsFile>2016/02/12 22:26:30.225</settingsFile>
+      <sourceFile>2016/03/26 10:41:33.217</sourceFile>
+      <parser>2016/02/12 22:26:30.695</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/02/12 22:26:30.695</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1624814296</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/02/12 22:26:30.695</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/02/12 22:26:30.695</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/02/12 22:26:30.695</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+      <StyleCopPlus.StyleCopPlusRules>2016/02/12 22:26:30.695</StyleCopPlus.StyleCopPlusRules>
+      <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CodeLineMustNotEndWithWhitespace" ruleCheckId="SP2000">
+        <context>Invalid spacing at the end of the line.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CodeLineMustNotEndWithWhitespace" ruleCheckId="SP2000">
+        <context>Invalid spacing at the end of the line.</context>
+        <line>17</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CodeLineMustNotEndWithWhitespace" ruleCheckId="SP2000">
+        <context>Invalid spacing at the end of the line.</context>
+        <line>18</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CodeLineMustNotEndWithWhitespace" ruleCheckId="SP2000">
+        <context>Invalid spacing at the end of the line.</context>
+        <line>28</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CodeLineMustNotEndWithWhitespace" ruleCheckId="SP2000">
+        <context>Invalid spacing at the end of the line.</context>
+        <line>32</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name=".NETFramework,Version=v4.5.AssemblyAttributes.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/02/12 22:26:30.695</styleCop>
+      <settingsFile>2016/02/12 22:26:30.225</settingsFile>
+      <sourceFile>2016/02/09 00:20:35.859</sourceFile>
+      <parser>2016/02/12 22:26:30.695</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/02/12 22:26:30.695</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1624814296</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/02/12 22:26:30.695</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/02/12 22:26:30.695</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/02/12 22:26:30.695</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+      <StyleCopPlus.StyleCopPlusRules>2016/02/12 22:26:30.695</StyleCopPlus.StyleCopPlusRules>
+      <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/02/12 22:26:30.695</styleCop>
+      <settingsFile>2016/02/12 22:26:30.225</settingsFile>
+      <sourceFile>2016/02/12 22:26:33.684</sourceFile>
+      <parser>2016/02/12 22:26:30.695</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/02/12 22:26:30.695</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1624814296</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/02/12 22:26:30.695</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/02/12 22:26:30.695</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/02/12 22:26:30.695</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+      <StyleCopPlus.StyleCopPlusRules>2016/02/12 22:26:30.695</StyleCopPlus.StyleCopPlusRules>
+      <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/02/12 22:26:30.695</styleCop>
+      <settingsFile>2016/02/12 22:26:30.225</settingsFile>
+      <sourceFile>2016/02/12 22:26:33.684</sourceFile>
+      <parser>2016/02/12 22:26:30.695</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/02/12 22:26:30.695</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1624814296</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/02/12 22:26:30.695</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/02/12 22:26:30.695</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/02/12 22:26:30.695</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+      <StyleCopPlus.StyleCopPlusRules>2016/02/12 22:26:30.695</StyleCopPlus.StyleCopPlusRules>
+      <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/02/12 22:26:30.695</styleCop>
+      <settingsFile>2016/02/12 22:26:30.225</settingsFile>
+      <sourceFile>2016/02/12 22:26:33.684</sourceFile>
+      <parser>2016/02/12 22:26:30.695</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/02/12 22:26:30.695</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1624814296</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/02/12 22:26:30.695</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/02/12 22:26:30.695</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/02/12 22:26:30.695</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/02/12 22:26:30.695</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+      <StyleCopPlus.StyleCopPlusRules>2016/02/12 22:26:30.695</StyleCopPlus.StyleCopPlusRules>
+      <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+</stylecopresultscache>

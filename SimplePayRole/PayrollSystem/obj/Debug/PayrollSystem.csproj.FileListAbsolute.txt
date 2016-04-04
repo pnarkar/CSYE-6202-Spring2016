@@ -1,0 +1,12 @@
+D:\test\PayrollSystem\PayrollSystem\bin\Debug\PayrollSystem.exe.config
+D:\test\PayrollSystem\PayrollSystem\bin\Debug\PayrollSystem.exe
+D:\test\PayrollSystem\PayrollSystem\bin\Debug\PayrollSystem.pdb
+D:\test\PayrollSystem\PayrollSystem\obj\Debug\PayrollSystem.exe
+D:\test\PayrollSystem\PayrollSystem\obj\Debug\PayrollSystem.pdb
+D:\test\PayrollSystem\PayrollSystem\obj\Debug\PayrollSystem.csprojResolveAssemblyReference.cache
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem\bin\Debug\PayrollSystem.exe.config
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem\obj\Debug\PayrollSystem.exe
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem\obj\Debug\PayrollSystem.pdb
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem\bin\Debug\PayrollSystem.exe
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem\bin\Debug\PayrollSystem.pdb
+C:\Users\pranalinarkar\Desktop\PayrollSystem\PayrollSystem\obj\Debug\PayrollSystem.csprojResolveAssemblyReference.cache
