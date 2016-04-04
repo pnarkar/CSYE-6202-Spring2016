@@ -22,6 +22,7 @@ namespace StudenttRegistrationForm
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
+            
             String fname= textBox2.Text;
             String lname = textBox3.Text;
             String depart = Convert.ToString(comboDepartment.SelectedItem);

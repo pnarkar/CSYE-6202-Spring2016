@@ -132,6 +132,7 @@
             // 
             this.groupBox1.Controls.Add(this.radioPartTime);
             this.groupBox1.Controls.Add(this.radioFullTime);
+            this.groupBox1.Enabled = false;
             this.groupBox1.Location = new System.Drawing.Point(323, 19);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 115);
@@ -161,6 +162,7 @@
             this.radioFullTime.TabStop = true;
             this.radioFullTime.Text = "Full Time";
             this.radioFullTime.UseVisualStyleBackColor = true;
+            this.radioFullTime.CheckedChanged += new System.EventHandler(this.radioFullTime_CheckedChanged);
             // 
             // textBox3
             // 
@@ -194,6 +196,7 @@
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.buttonRemove);
             this.Controls.Add(this.groupBox2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "RemoveStudent";
             this.Text = "RemoveStudent";
             this.Load += new System.EventHandler(this.RemoveStudent_Load);

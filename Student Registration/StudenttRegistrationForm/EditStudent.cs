@@ -23,6 +23,7 @@ namespace StudenttRegistrationForm
 
         public void buttonUpdate_Click(object sender, EventArgs e)
         {
+            String id = textBox1.Text;
             String fname = textBox2.Text;
             String lname = textBox3.Text;
             String depart = Convert.ToString(comboDepartment.SelectedItem);
@@ -81,6 +82,7 @@ namespace StudenttRegistrationForm
 
         private void EditStudent_Load(object sender, EventArgs e)
         {
+            textBox1.Text = su.studentId;
             textBox2.Text = su.FirstName;
             textBox3.Text = su.LastName;
             comboDepartment.DataSource = ComboData();

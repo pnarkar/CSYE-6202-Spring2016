@@ -83,6 +83,7 @@
             // 
             this.groupBox1.Controls.Add(this.radioPartTime);
             this.groupBox1.Controls.Add(this.radioFullTime);
+            this.groupBox1.Enabled = false;
             this.groupBox1.Location = new System.Drawing.Point(323, 19);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 115);

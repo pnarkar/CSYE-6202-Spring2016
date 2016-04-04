@@ -192,6 +192,7 @@
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.buttonUpdate);
             this.Controls.Add(this.groupBox2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "EditStudent";
             this.Text = "EditStudent";
             this.Load += new System.EventHandler(this.EditStudent_Load);

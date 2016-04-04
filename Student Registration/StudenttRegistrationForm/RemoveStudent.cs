@@ -42,6 +42,10 @@ namespace StudenttRegistrationForm
         private void RemoveStudent_Load(object sender, EventArgs e)
         {
             comboDepartment.DataSource = ComboData();
+            textBox1.Text = su.studentId;
+            textBox2.Text = su.FirstName;
+            textBox3.Text = su.LastName;
+            comboDepartment.SelectedItem = su.Department;
         }
 
         private void buttonRemove_Click(object sender, EventArgs e)
@@ -58,6 +62,11 @@ namespace StudenttRegistrationForm
             {
                 this.Close();
             }
+        }
+
+        private void radioFullTime_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
