@@ -1,0 +1,5 @@
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\StudentRegistrationWPF\StudentInfo\bin\Debug\StudentInfo.dll
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\StudentRegistrationWPF\StudentInfo\bin\Debug\StudentInfo.pdb
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\StudentRegistrationWPF\StudentInfo\obj\Debug\StudentInfo.csprojResolveAssemblyReference.cache
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\StudentRegistrationWPF\StudentInfo\obj\Debug\StudentInfo.dll
+C:\Users\pranalinarkar\Source\Repos\CSYE-6202-Spring2016\StudentRegistrationWPF\StudentInfo\obj\Debug\StudentInfo.pdb
